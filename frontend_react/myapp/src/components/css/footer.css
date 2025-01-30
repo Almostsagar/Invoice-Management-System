@@ -1,0 +1,17 @@
+.footer-a{
+    background-color: #2D4250;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+.footertext{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}

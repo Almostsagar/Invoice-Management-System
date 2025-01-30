@@ -1,0 +1,42 @@
+.imagees-hrc {
+    background-color: #2D4250;
+    height: 60px;
+    display: flex;
+    padding-top: 6px;
+}
+
+.imgabc {
+    margin: 8px;
+    margin-top: 0;
+    position: absolute;
+}
+
+.imghrc {
+    margin: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headertitle {
+    color: white;
+    background-color: #2D4250;
+    margin: 0;
+    padding: 10px 8px 6px 18px;
+    text-align: left;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 760px) {
+    .imagees-hrc {
+        display: flex;
+        flex-direction: column;
+    }
+    .imghrc {
+        padding-top: 50px;
+    }
+    .headertitle {        
+        text-align: center;
+        padding-top: 40px;
+    }
+ }

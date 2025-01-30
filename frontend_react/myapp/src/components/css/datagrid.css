@@ -1,0 +1,263 @@
+.dialog1 {
+    background-color: #283D4A;
+    color: white;
+    border-radius: 0;
+    padding: 16px 21px;
+  }
+  
+  .dialog2 {
+    background-color: #283D4A;
+    padding: 22px 35px;
+    padding-top: 20px !important;
+  
+  }
+  
+  .dialog2title {
+    color: #ffffff !important;
+  
+  }
+  
+  .dialog3 {
+    background-color: #283D4A;
+    color: white;
+    justify-content: space-evenly !important;
+  }
+  
+  .dialogbtn1 {
+    border: white 0.6px solid !important;
+    color: white !important;
+    border-radius: 5px !important;
+    height: 31px;
+    font-size: small !important;
+    width: 185px !important;
+  
+  }
+  
+  .dialogbtn2 {
+    border: white 0.6px solid !important;
+    color: white !important;
+    border-radius: 5px !important;
+    height: 31px;
+    font-size: small !important;
+    width: 185px !important;
+  }
+  
+  .dialogstyle {
+    border-radius: 0 !important;
+  }
+  
+  .imagees-hrc {
+    background-color: #2D4250;
+    height: 82px;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .imgabc {
+    margin: 8px;
+    position: absolute;
+  }
+  
+  .imghrc {
+    margin: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .all {
+    background-color: #283D4A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .buttons {
+    flex-direction: row;
+  }
+  
+  /* .inputCid {
+    flex-direction: row;
+  } */
+  
+  
+  .custin {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .editin {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .buttonStyle1 {
+    border-radius: 8px 0px 0px 8px !important;
+    height: 31px;
+    color: rgb(240, 240, 240) !important;
+    background-color: #1976d2 !important;
+    font-weight: 350 !important;
+    font-size: small !important;
+    width: 150px !important;
+  
+  }
+  
+  .buttonStyle2 {
+    border-radius: 0 !important;
+    height: 31px;
+    color: rgb(240, 240, 240) !important;
+    font-weight: 350 !important;
+    font-size: small !important;
+    width: 150px !important;
+  
+  }
+  
+  .buttonStyle3 {
+    border-radius: 0px 8px 8px 0px !important;
+    height: 31px;
+    color: rgb(240, 240, 240) !important;
+    font-weight: 350 !important;
+    font-size: small !important;
+    width: 150px !important;
+  
+  }
+  
+  .buttonStyle4 {
+    border-radius: 8px 0px 0px 8px !important;
+    height: 31px;
+    color: rgb(240, 240, 240) !important;
+  
+    font-weight: 350 !important;
+    font-size: small !important;
+    width: 150px !important;
+  }
+  
+  .buttonStyle5 {
+    border-radius: 0 !important;
+    height: 31px;
+    color: rgb(240, 240, 240) !important;
+    font-weight: 350 !important;
+    /* border-color: #3f3f3f !important; */
+    width: 150px !important;
+    font-size: small !important;
+  }
+  
+  .buttonStyle6 {
+    border-radius: 0px 8px 8px 0px !important;
+    height: 31px;
+    color: rgb(240, 240, 240) !important;
+    font-weight: 350 !important;
+    font-size: small !important;
+    width: 150px !important;
+  
+  }
+  
+  .refreshicon{
+    border: 1px solid #1976d2 !important;
+    border-radius: 6px !important;
+    height: 31px;
+    color: #1976d2 !important;
+    font-weight: 350 !important;
+    font-size: small !important;
+    width: 58px !important;
+    height: 26px !important;  
+  }
+  .refreshicon:hover{
+    border: 1px solid #60a2e4 !important;
+    color: #60a2e4 !important;
+    cursor: pointer;
+  
+  }
+  
+  .headertitle{
+    color: white;
+    margin:0;
+    padding:0;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  .addgrid{
+    display: grid;
+    /* grid-template-columns: auto auto auto auto;       */
+    grid-gap: 30px;
+  }
+ 
+  .textfieldwid{
+    width: 200px;
+  }
+  .advgrid{
+    display: grid;
+    grid-gap: 10px;
+    }
+    .analyticscss{
+      display: grid;
+      grid-template-columns: auto auto;
+
+    }
+    .analyticscss-div1{
+      display: flex;
+      flex-direction: column;
+    }
+    .analyticscss-div2{
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+    }
+    .analyticscss-div3{
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+
+    }
+  
+    .analyticscss-divlast{
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-top: 30px;
+
+    }
+  
+    @media screen and (max-width: 760px) {
+      .all{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .buttonsrescss{
+        padding-top: 10px;
+      }
+   }
+    @media screen and (max-width: 450px) {
+      .all{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 50px;
+      }
+      .buttonsrescss{
+        padding-top: 10px;
+      }
+   }
+    @media screen and (max-width: 295px) {
+      .all{
+        flex-direction: column;
+        padding-top: 120px;
+        padding-bottom: 50px;
+      }
+      .buttonsrescss{
+        padding-top: 10px;
+      }
+      .bottombuttons{
+        padding-bottom: 80px;
+      }
+      .topbuttons{
+        padding-top: 60px;
+      }
+   }
